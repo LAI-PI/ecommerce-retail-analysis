@@ -1,0 +1,21 @@
+# 构建脚本（不属于交付物）
+.build/
+
+# 个人简历（私有文件，不进公开仓库）
+*.docx
+
+# 原始大数据文件（UCI 数据集请从官方下载，见 README）
+data/raw/online-retail.zip
+data/raw/Online Retail.xlsx
+data/raw/online_retail_raw.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
