@@ -65,4 +65,3 @@ python sql/verify_sqlite.py
 - **来源**：[UCI Machine Learning Repository — Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail)，真实英国在线零售商交易流水（2010-12-01 ~ 2011-12-09），541,909 行 × 8 字段。
 - **清洗口径**：剔除不完整末日与缺失客户 ID 行、拆分退货/取消单、剔除非商品行（运费/平台费/手工调整）与重复行后，销售明细 390,545 行，退货明细 10,617 行；详细口径与每步业务理由见 Notebook 01。
 - **局限**：无浏览行为数据（做不了转化漏斗）、无成本数据（毛利未知）、仅 13 个月（同比不可靠）。
-
